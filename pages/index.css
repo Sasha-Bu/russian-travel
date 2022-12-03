@@ -1,6 +1,6 @@
 @import url(../vendor/normalize.css);
 
-@import url(../vendor/fonts.css);
+@import url(../vendor/fonts/inter.css);
 
 @import url(../blocks/body/body.css);
 
@@ -366,5 +366,101 @@
   .footer {
     max-width: 928px;
     min-height: 18px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    max-width: 720px;
+  }
+
+  .lead {
+    max-width: 768px;
+    min-height: 862px;
+    margin: 48px auto 0;
+  }
+
+  .lead__image {
+    max-width: 768px;
+    max-height: 480px;
+    margin: 56px auto 0;
+  }
+
+  .lead__caption {
+    margin-left: 24px;
+  }
+
+  .intro {
+    max-width: 720px;
+    min-height: 429px;
+    margin: 88px auto 0;
+  }
+
+  .intro__title {
+    max-width: 720px;
+  }
+
+  .intro__text {
+    max-width: 720px;
+  }
+
+  .photo-grid {
+    margin: 88px auto 88px;
+    max-width: 720px;
+  }
+
+  .photo-grid__item {
+    width: 100%;
+  }
+
+  .places {
+    max-width: 720px;
+    min-height: 100vh;
+  }
+
+  .place {
+    max-width: 720px;
+    column-gap: 28px;
+    margin-bottom: 73px;
+  }
+
+  .place__title {
+    max-width: 300px;
+    font-size: 42px;
+    line-height: 46px;
+  }
+
+  .place__website {
+    place-self: end start;
+  }
+
+  .place__image {
+    max-width: 340px;
+    max-height: 340px;
+  }
+
+  .place__paragraphs {
+    max-width: 352px;
+  }
+
+  .place__paragraph {
+    font-size: 16px;
+    line-height: 163%;
+    margin: 0 0 25px 0;
+  }
+
+  .cover {
+    max-width: 768px;
+    min-height: 480px;
+    margin: 90px auto 0;
+  }
+
+  .cover__title {
+    margin: 115px auto 0;
+  }
+
+  .footer {
+    margin: 88px auto 24px;
+    max-width: 720px;
   }
 }
