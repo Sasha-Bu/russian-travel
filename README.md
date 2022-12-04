@@ -9,6 +9,10 @@
 - Навигация;
 - Grid,flex
 
+## GitHub Pages
+
+https://sasha-bu.github.io/russian-travel/
+
 ## Благодарности
 
 Особая благодарность https://practicum.yandex.ru
