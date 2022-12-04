@@ -11,7 +11,7 @@
 <body class="body">
   <header class="header">
     <img class="header__logo" src="./images/__logo header Russia.svg" alt="Логотип Россия" />
-    <ul class="language">
+    <ul class="header__lang-links">
       <li>
         <a class="header__lang-link header__lang-link_active" href="#">Ru</a>
       </li>
@@ -20,7 +20,7 @@
       </li>
     </ul>
   </header>
-  <main class="page">
+  <main>
     <section class="lead">
       <h1 class="lead__title">Путешествия по России</h1>
       <p class="lead__subtitle">
@@ -42,11 +42,13 @@
         проехала 20 тысяч километров по родной стране. Мы выбрали и описали
         некоторые интересные места, достойные вашего отпуска.
       </p>
-      <p class="intro__list">Часовых поясов 11</p>
-      <p class="intro__list">Объектов природного наследия ЮНЕСКО 12</p>
-      <p class="intro__list">Объектов культурного наследия ЮНЕСКО 16</p>
-      <p class="intro__list">Природных заповедников 105</p>
-      <p class="intro__list">Аэропортов 241</p>
+      <div class="intro__list">
+        <p class="intro__item">Часовых поясов 11</p>
+        <p class="intro__item">Объектов природного наследия ЮНЕСКО 12</p>
+        <p class="intro__item">Объектов культурного наследия ЮНЕСКО 16</p>
+        <p class="intro__item">Природных заповедников 105</p>
+        <p class="intro__item">Аэропортов 241</p>
+      </div>
     </section>
     <section class="photo-grid">
       <img class="photo-grid__item" src="./images/__item-window.png" alt="Вид из окна" />
