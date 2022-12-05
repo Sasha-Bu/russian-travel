@@ -31,8 +31,5 @@
   .footer {
     margin: 64px 0 24px 16px;
     max-width: 288px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
   }
 }

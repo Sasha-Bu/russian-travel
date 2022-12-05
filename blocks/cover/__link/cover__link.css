@@ -2,3 +2,20 @@
   color: #FFFFFF;
   text-decoration: none;
 }
+
+.cover__link::before {
+  background-color: #2A2C2F;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  content: "";
+  opacity: 0.3;
+  z-index: 2;
+}
+
+.cover__link:hover::before {
+  opacity: 0.8;
+  transition: opacity 1.5s;
+}
